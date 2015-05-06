@@ -27,10 +27,14 @@ public class ColorAttrDriver {
 		// Number three
 		testThree = new ColorAttr("ColorThree", newColor);
 		System.out.println(testThree.toString());
+		
+		//Creating a new color to test/ print out
 	
 		// Number four
 		testFour = new Attr("ColorFour", "yellow");
 		System.out.println(testFour.toString());
+		
+		//Creating a new Attr and marking exact color (yellow) to "color four"
 		
 		// Number five
 		testFive = new Attr("ColorFive", "chartreuse");
