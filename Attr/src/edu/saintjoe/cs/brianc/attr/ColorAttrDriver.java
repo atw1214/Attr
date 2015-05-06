@@ -7,6 +7,8 @@ public class ColorAttrDriver {
 		ColorAttr testOne, testTwo, testThree;
 		Attr testFour;
 		
+		//Example of overloaded method
+		
 		// We need this object for the third ColorAttr constructor
 		ScreenColor newColor = new ScreenColor("green");
 		
@@ -15,6 +17,8 @@ public class ColorAttrDriver {
 		// Number one
 		testOne = new ColorAttr("ColorOne","red");
 		System.out.println(testOne.toString());
+		
+		//Example of overridden method
 		
 		// Number two
 		testTwo = new ColorAttr("ColorTwo");
